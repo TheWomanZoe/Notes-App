@@ -1,0 +1,118 @@
+.hidden {
+    display: none !important;
+}
+
+body {
+    background-color: rgb(255, 255, 224);
+}
+
+.app-container {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 5px solid rgb(255, 255, 120);
+    border-radius: 25px;
+    background-color: rgb(255, 255, 120);
+    margin: 70px 27%;
+}
+
+.app-container h1 {
+    font-size: 40px;
+    margin: 25px 0px 15px 0px;
+}
+
+.app-container p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#create-note-btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 184);
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    margin: 10px 0px 5px 0px;
+}
+
+#title-input {
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+#content-input {
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding:10px;
+    overflow: hidden;
+    resize: none;
+    width: 200px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#save-note {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 184);
+    margin-bottom: 20px;
+}
+
+#note-container {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;    
+    justify-content: space-evenly;
+    margin: 20px 15%;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 220px;
+    height: 220px;
+    background-color: rgb(255, 255, 120);
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.note h2 {
+    margin: 20px 0px 5px 10px;
+    font-size: 22px;
+}
+
+.note p {
+    margin-left: 10px;
+    font-size: 16px;
+}
